@@ -4,3 +4,6 @@
 [submodule "containers/nginx"]
 	path = containers/nginx
 	url = git@github.com:krisanalfa/docker-nginx.git
+[submodule "webapp"]
+	path = webapp
+	url = git@github.com:krisanalfa/viper-arch

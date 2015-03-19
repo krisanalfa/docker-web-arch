@@ -18,7 +18,7 @@
                     "fpm"
                 ],
                 "volumes": [
-                    "./webapp:/usr/share/nginx/www"
+                    "./webapp:/usr/share/nginx"
                 ]
             }
         }
