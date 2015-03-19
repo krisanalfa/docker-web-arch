@@ -1,0 +1,23 @@
+{
+    "name": "krisanalfa/docker-web-arch",
+    "version": "0.0.1",
+    "profile": "docker",
+
+    "docker": {
+        "containers": {
+            "fpm": {
+                "volumesFrom": [
+                    "nginx"
+                ]
+            },
+            "nginx": {
+                "ports": [
+                    "80:80"
+                ],
+                "links": [
+                    "fpm"
+                ]
+            }
+        }
+    }
+}
