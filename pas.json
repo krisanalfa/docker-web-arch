@@ -16,6 +16,9 @@
                 ],
                 "links": [
                     "fpm"
+                ],
+                "volumes": [
+                    "./webapp:/usr/share/nginx/www"
                 ]
             }
         }

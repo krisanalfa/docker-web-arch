@@ -1,6 +1,6 @@
-[submodule "containers/nginx"]
-    path = containers/nginx
-    url = git@github.com:krisanalfa/docker-nginx.git
 [submodule "containers/fpm"]
     path = containers/fpm
     url = git@github.com:krisanalfa/docker-fpm.git
+[submodule "containers/nginx"]
+	path = containers/nginx
+	url = git@github.com:krisanalfa/docker-nginx.git
